@@ -7,7 +7,7 @@ def create_list_with_value(size: int, index: int, value: int) -> List[int]:
         if i == index:
             mylist.append(value)
             continue
-        mylist.append(int(0))
+        mylist.append(0)
     return mylist
     
 
